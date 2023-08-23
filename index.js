@@ -8,6 +8,7 @@ const csv=require('csvtojson')
 
 require('dotenv').config(); 
 
+
 const APPLICATION_ID = process.env.APPLICATION_ID;
 const API_KEY_SETTINGS = process.env.API_KEY_SETTINGS;
 const API_KEY_SEARCH = process.env.API_KEY_SEARCH;
