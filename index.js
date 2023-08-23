@@ -6,6 +6,7 @@ const algoliasearchHelper = require('algoliasearch-helper');
 const fs = require('fs');
 const csv=require('csvtojson')
 
+
 require('dotenv').config(); 
 
 const APPLICATION_ID = process.env.APPLICATION_ID;
