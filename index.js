@@ -22,8 +22,8 @@ async function initIndexSettings() {
     const index = client.initIndex(RESTAURANTS_INDEX);
     
     return await index.setSettings({
-        'searchableAttributes': ['name', 'area', 'neighborhood', '_geoloc'],
-        'attributesForFaceting': ['searchable(food_types)', 'payment_options']
+        'searchableAttributes': ['name', 'area', 'neighborhood', 'food_type', '_geoloc'],
+        'attributesForFaceting': ['food_types', 'payment_options']
       }).then(() => {
         return true;
       });    
