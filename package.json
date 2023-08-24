@@ -12,6 +12,7 @@
     "algoliasearch": "^4.19.1",
     "algoliasearch-helper": "^3.14.0",
     "csvtojson": "^2.0.10",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "loadash": "^1.0.0"
   }
 }
