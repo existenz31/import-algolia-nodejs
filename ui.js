@@ -17,7 +17,7 @@ function renderHits(content) {
 function initHelper() {
     const client = algoliasearch(APPLICATION_ID, API_KEY_SEARCH);
     searchHelper = algoliasearchHelper(client, RESTAURANTS_INDEX, {
-        disjunctiveFacets: ['payment_options', 'food_type'],
+        disjunctiveFacets: ['payment_options', 'food_types'],
         hitsPerPage: 3,
         maxValuesPerFacet: 7
     });
