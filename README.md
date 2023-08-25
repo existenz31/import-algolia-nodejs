@@ -17,9 +17,12 @@ npm install
 Create the file `.env` at the root of the project, with this content
 > Important: Please change values for **APPLICATION_ID**, **API_KEY_SETTINGS** & **API_KEY_LOAD_DATA**
 
-`APPLICATION_ID,  = `**`YOUR APPLICATION ID`**`
-`API_KEY_SETTINGS = `**`YOUR API KEY FOR INDEX SETTINGS`**`
-`API_KEY_LOAD_DATA = `**`YOUR API KEY FOR LOADING DATA`**`
+`APPLICATION_ID,  = `**`YOUR APPLICATION ID`**
+
+`API_KEY_SETTINGS = `**`YOUR API KEY FOR INDEX SETTINGS`**
+
+`API_KEY_LOAD_DATA = `**`YOUR API KEY FOR LOADING DATA`**
+
 `RESTAURANTS_INDEX = restaurants_demo`
 `RESTAURANTS_JSON_FILE = ./dataset/restaurants_list.json`
 `RESTAURANTS_CSV_FILE = ./dataset/restaurants_info.csv`
