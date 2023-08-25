@@ -23,7 +23,7 @@ async function initIndexSettings() {
     
     return await index.setSettings({
         'searchableAttributes': ['name', 'area', 'neighborhood', 'food_type', '_geoloc'],
-        'attributesForFaceting': ['food_types', 'payment_options']
+        'attributesForFaceting': ['searchable(food_types)', 'payment_options']
       }).then(() => {
         return true;
       });    
