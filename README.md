@@ -24,7 +24,9 @@ Create the file `.env` at the root of the project, with this content
 `API_KEY_LOAD_DATA = `**`YOUR API KEY FOR LOADING DATA`**
 
 `RESTAURANTS_INDEX = restaurants_demo`
+
 `RESTAURANTS_JSON_FILE = ./dataset/restaurants_list.json`
+
 `RESTAURANTS_CSV_FILE = ./dataset/restaurants_info.csv`
 
 3. Process the data
